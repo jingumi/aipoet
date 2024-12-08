@@ -4,6 +4,8 @@
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
 
+from langchain_openai import *
+
 import streamlit as st
 
 # Streamlit UI 설정
